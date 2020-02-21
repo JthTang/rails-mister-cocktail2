@@ -36,12 +36,12 @@ gem 'font-awesome-sass', '~> 5.6.1'
 gem 'simple_form'
 gem 'dotenv-rails', groups: [:development, :test]
 
-
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'cloudinary', '~> 1.12.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
