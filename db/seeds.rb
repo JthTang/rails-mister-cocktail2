@@ -15,5 +15,3 @@ items = JSON.parse(json)
 items['drinks'].each do |ingredient|
   Ingredient.create!(name: ingredient['strIngredient1'])
 end
-
-
